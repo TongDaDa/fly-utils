@@ -1,0 +1,23 @@
+{
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 8,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "rules": {
+        "semi": 2,
+        "array-bracket-spacing": [2],
+        "block-scoped-var": 1,
+        "brace-style": [1, "1tbs"],
+        "camelcase": 2,
+        "comma-dangle": [2, "never"],
+        "comma-spacing": 2,
+        "computed-property-spacing": [2, "never"]
+      }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "fly-utils",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint" : "./node_modules/.bin/eslint ../.eslintrc.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TongDaDa/fly-utils.git"
+  },
+  "keywords": [
+    "javascript-utils"
+  ],
+  "author": "a flying pig",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TongDaDa/fly-utils/issues"
+  },
+  "homepage": "https://github.com/TongDaDa/fly-utils#readme",
+  "devDependencies": {
+    "eslint": "4.8.0"
+  }
+}
