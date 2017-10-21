@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "eslint" : "./node_modules/.bin/eslint ../.eslintrc.js"
+    "eslint": "./node_modules/.bin/eslint ../.eslintrc.js",
+    "start": "cross-env NODE_ENV=development node ./index",
+    "build": "cross-env NODE_ENV=produtcion"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,12 @@
   },
   "homepage": "https://github.com/TongDaDa/fly-utils#readme",
   "devDependencies": {
-    "eslint": "4.8.0"
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "cross-env": "^5.1.0",
+    "eslint": "4.8.0",
+    "mocha": "^4.0.1"
   }
 }
