@@ -3,4 +3,7 @@
 doc/*.html
 package-lock.json
 node_modules
-index.js
+./index.js
+./lib/index.js
+.vscode
+/dist
