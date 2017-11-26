@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "./node_modules/mocha/bin/mocha ./test/mocha.js",
     "eslint": "./node_modules/.bin/eslint ../.eslintrc.js",
     "start": "cross-env NODE_ENV=development node ./index",
     "build": "cross-env NODE_ENV=produtcion"
