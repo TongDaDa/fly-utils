@@ -13,6 +13,10 @@
     "type": "git",
     "url": "git+https://github.com/TongDaDa/fly-utils.git"
   },
+  "peerDependencies": {
+    "react": ">=16.0.0",
+    "react-dom": ">=16.0.0"
+  },
   "keywords": [
     "javascript-utils"
   ],
